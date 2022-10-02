@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 400vh;
+        width: 100%;
+        position: relative;
+      }
+      .parent {
+        height: 50vh;
+        width: 20vw;
+        background-color: red;
+        position: absolute;
+        top: 2%;
+        left: 40%;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      .p1 {
+        height: 100vh;
+        background-color: aqua;
+      }
+      .p2 {
+        height: 100vh;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p1"></div>
+    <div class="p2"></div>
+
+    <div class="parent">
+      <img
+        src="https://lagunitas.com/wp-content/uploads/2021/05/ipa.png"
+        alt=""
+        id="bottle1"
+      />
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+      integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
+      integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
